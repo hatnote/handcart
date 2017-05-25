@@ -8,6 +8,13 @@ This file contains c. 10K records containing taxonomic and bibliographic data fo
 
 The data comes from TreatmentBank (http://tb.plazi.org/GgServer/search) maintained by Plazi (plazi.org), and was extracted from pdf versions of publications.
 
+## Sample Data
+```
+DocDoi,DocIsbn,DocIssn,BibAuthor,BibTitle,BibYear,BibDecade,BibSource,BibFirstPage,BibLastPage,TreatmentID,TaxonName,TaxonRank,Kingdom,Phylum,Class,Order,Family,Genus,Species,TaxonStatus
+10.11646/zootaxa.4088.2.6,,1175-5326,"Aarvik, Leif","Redefinition and revision of African Cosmetra Diakonoff, 1977 (Lepidoptera: Tortricidae) with description of six new species",2016,2010,Zootaxa,245,256,http://treatment.plazi.org/id/A279021FFF91FFCDAE821588FE598409,Cosmetra juu,species,Animalia,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cosmetra,juu,sp. nov.
+10.11646/zootaxa.4088.2.6,,1175-5326,"Aarvik, Leif","Redefinition and revision of African Cosmetra Diakonoff, 1977 (Lepidoptera: Tortricidae) with description of six new species",2016,2010,Zootaxa,245,256,http://treatment.plazi.org/id/A279021FFF98FFC2AE8210C9FA478694,"Cosmetra tumulata (Meyrick, 1908)",species,Animalia,Arthropoda,Insecta,Lepidoptera,Tortricidae,Cosmetra,tumulata,comb. nov.
+```
+
 ## Field Definitions
 
 - DocDoi: The CrossRef or Zenodo/DataCite DOI of the parent publication
