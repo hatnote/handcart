@@ -5,12 +5,15 @@ import hashlib
 
 import attr
 import requests
+import unicodecsv
 from hyperlink import URL
+from boltons import strutils
 
 
 VERSION = '0.1'
 
 WIKIDATA_API_BASE = 'https://www.wikidata.org/w/api.php'
+example_file = 'example_data/taxon_treatments_2010s.csv'
 
 
 def to_unicode(obj):
@@ -69,3 +72,14 @@ class Handcart(object):
         user_hash = get_user_hash()
         user_agent = 'hatnote-handcart/%s (user:%s)' % (VERSION, user_hash)
         self.http_client.headers.update({'User-Agent': user_agent})
+
+
+def get_csv(csv_file):
+    reader = unicodecsv.DictReader(open(example_file, 'rb'))
+    return list(reader)
+
+
+def get_csv_headers(csv_file):
+    example_csv = get_csv(example_file)[0]
+    csv_keys = example_csv.keys()
+    return csv_keys
