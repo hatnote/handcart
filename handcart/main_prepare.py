@@ -17,4 +17,4 @@ def configure_parser(subparsers):
 
 
 def execute(ctx):
-    print ctx
+    print(ctx.http_client.headers)
