@@ -30,7 +30,8 @@ def get_candidate_map(csv_keys):
     {TaxonStatus: ['TaxonStatus', 'taxon', 'status', 'taxon status']}'''
     ret = {}
     candidate_field_list = []
-    for key in csv_keys:
+    example_csv_keys = get_csv_headers(example_file)
+    for key in example_csv_keys:
         candidates = []
         candidates.append(key)
         camel_case_key = strutils.camel2under(key)
