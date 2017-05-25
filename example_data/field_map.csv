@@ -1,5 +1,5 @@
 FIELD, WD_LABEL, WD_PROP_ID
-DocDoi,,
+DocDoi,described by source, P1343
 DocIsbn, ,
 DocIssn, ,
 BibAuthor, ,
@@ -9,7 +9,7 @@ BibDecade, ,
 BibSource, ,
 BibFirstPage, ,
 BibLastPage, ,
-TreatmentID,Plazi ID,P1343 
+TreatmentID,Plazi ID,P1992 
 TaxonName,taxon name,P225
 TaxonRank,taxon rank,P105 
 Kingdom, ,
