@@ -1,0 +1,22 @@
+FIELD, WD_LABEL, WD_PROP_ID
+DocDoi,described by source, P1343
+DocIsbn, ,
+DocIssn, ,
+BibAuthor, ,
+BibTitle, ,
+BibYear,date of taxon name publication, P574
+BibDecade, ,
+BibSource, ,
+BibFirstPage, ,
+BibLastPage, ,
+TreatmentID,Plazi ID,P1992 
+TaxonName,taxon name,P225
+TaxonRank,taxon rank,P105 
+Kingdom, ,
+Phylum, ,
+Class, ,
+Order, ,
+Family, ,
+Genus, ,
+Species, ,
+TaxonStatus, ,
