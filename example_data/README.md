@@ -1,6 +1,12 @@
 # taxon_treatments_2010s.csv
 
+## Description
+
+This file contains c. 10K records containing taxonomic and bibliographic data for taxa described in the 2010s and the publications in which their descriptions occur. Each record corresponds to a taxon "treatment", i.e., the section of a publication in which a taxon is formally named and described or redescribed.
+
 ## Source
+
+The data comes from TreatmentBank (http://tb.plazi.org/GgServer/search) maintained by Plazi (plazi.org), and was extracted from pdf versions of publications.
 
 ## Field Definitions
 
