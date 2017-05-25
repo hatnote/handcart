@@ -21,5 +21,6 @@ def configure_parser(subparsers):
 def execute(ctx):
     print(ctx.http_client.headers)
 
-    print(ctx.urls.search('lol', 'item'))
-    print(ctx.urls.get_entities(['P12', 'Q123']))
+    print(ctx.search('lol', 'item'))
+    print(ctx.search('instance', 'property'))
+    print(ctx.get_entities(['P31', 'Q123']))
