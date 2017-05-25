@@ -6,12 +6,15 @@ from collections import namedtuple
 
 import attr
 import requests
+import unicodecsv
 from hyperlink import URL
+from boltons import strutils
 
 
 VERSION = '0.1'
 
 WIKIDATA_API_BASE = 'https://www.wikidata.org/w/api.php'
+example_file = 'example_data/taxon_treatments_2010s.csv'
 
 Item = namedtuple('Item', ['id', 'label', 'description'])
 Property = namedtuple('Property', ['id', 'label', 'description', 'datatype'])
@@ -78,7 +81,7 @@ class Handcart(object):
         user_agent = 'hatnote-handcart/%s (user:%s)' % (VERSION, user_hash)
         self.http_client.headers.update({'User-Agent': user_agent})
 
-    def search(self, target, wd_type='item', lang=self.lang):
+    def search(self, target, wd_type='item', lang=lang):
         search_url = self.urls.search(target, wd_type, lang)
         resp = requests.get(search_url)
         data = resp.json()
@@ -110,3 +113,14 @@ class Handcart(object):
                 ret[entity_id] = Property(entity_id, label, description, 
                                           datatype)
         return ret
+
+
+def get_csv(csv_file):
+    reader = unicodecsv.DictReader(open(example_file, 'rb'))
+    return list(reader)
+
+
+def get_csv_headers(csv_file):
+    example_csv = get_csv(example_file)[0]
+    csv_keys = example_csv.keys()
+    return csv_keys
