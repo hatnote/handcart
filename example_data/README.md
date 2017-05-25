@@ -2,9 +2,9 @@
 
 ## Description
 
-This file contains c. 10K records containing taxonomic and bibliographic data for taxa described in the 2010s and the publications in which their descriptions occur. Each record corresponds to a taxon "treatment", i.e., the section of a publication in which a taxon is formally named and described or redescribed.
+This file contains c. 10K records containing taxonomic and bibliographic source data for taxa described in the 2010s and the publications in which their descriptions occur. Each record corresponds to a taxon "treatment", i.e., the section of a publication in which a taxon is formally named and described or redescribed.
 
-Each record corresponds to a wikidata item such as: https://www.wikidata.org/wiki/Q148769
+Each record corresponds to a wikidata item such as: https://www.wikidata.org/wiki/Q23655226
 
 ## Source
 
