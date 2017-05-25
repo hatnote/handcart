@@ -6,7 +6,7 @@ This file contains c. 10K records containing taxonomic and bibliographic data fo
 
 ## Source
 
-The data comes from TreatmentBank (http://tb.plazi.org/GgServer/search) maintained by Plazi (http://plazi.org), and was extracted from pdf versions of publications.
+The dataset comes from TreatmentBank (http://tb.plazi.org/GgServer/search) maintained by Plazi (http://plazi.org/https://www.wikidata.org/wiki/Q7203726), and was extracted from pdf versions of publications.
 
 ## Sample Data
 ```
