@@ -6,7 +6,7 @@ This file contains c. 10K records containing taxonomic and bibliographic data fo
 
 ## Source
 
-The data comes from TreatmentBank (http://tb.plazi.org/GgServer/search) maintained by Plazi (plazi.org), and was extracted from pdf versions of publications.
+The data comes from TreatmentBank (http://tb.plazi.org/GgServer/search) maintained by Plazi (http://plazi.org), and was extracted from pdf versions of publications.
 
 ## Sample Data
 ```
@@ -27,7 +27,7 @@ DocDoi,DocIsbn,DocIssn,BibAuthor,BibTitle,BibYear,BibDecade,BibSource,BibFirstPa
 - BibSource: The Journal or Series Title in which the parent publication was published 
 - BibFirstPage: The first page on which the parent publication occurs in its journal issue, volume, etc.
 - BibLastPage: The last page on which the parent publication occurs in its journal issue, volume, etc.
-- TreatmentID: The Plazi assigned HTTP URI serving as a GUID for the taxon treatment; NOTE: the URI will dereference to an HTML representation. XML and RDF representations are available by appending '.xml' and '.rdf' respectively
+- TreatmentID: The Plazi assigned HTTP URI serving as a GUID for the taxon treatment. Corresponds to wikidata item Q20644485. NOTE: the URI will dereference to an HTML representation. XML and RDF representations are available by appending '.xml' and '.rdf' respectively. 
 - TaxonName: The verbatim form of the Taxon name
 - TaxonRank: The taxonomic rank (e.g., species) of the taxon described in the treatment
 - Kingdom: The kingdom in which the described taxon is classified
