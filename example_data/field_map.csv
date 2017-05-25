@@ -4,7 +4,7 @@ DocIsbn, ,
 DocIssn, ,
 BibAuthor, ,
 BibTitle, ,
-BibYear, ,
+BibYear,date of taxon name publication, P574
 BibDecade, ,
 BibSource, ,
 BibFirstPage, ,
