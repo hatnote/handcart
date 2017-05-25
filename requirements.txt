@@ -1,7 +1,9 @@
 appdirs==1.4.3
 attrs==17.2.0
+boltons==17.1.0
 hyperlink==17.1.1
 packaging==16.8
 pyparsing==2.2.0
 requests==2.14.2
 six==1.10.0
+unicodecsv==0.14.1
