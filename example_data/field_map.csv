@@ -17,6 +17,6 @@ Phylum, ,
 Class, ,
 Order, ,
 Family, ,
-Genus, ,
+Genus,parent taxon,P171
 Species, ,
 TaxonStatus, ,
